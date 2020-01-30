@@ -1,7 +1,15 @@
 package task2;
 
 public class Circle {
-    private int r = 5;
+    private int r;
+
+    Circle(int r){
+        this.r = r;
+    }
+
+    double circleArea(){
+        return r*r*3.14;
+    }
 
     public int getR() {
         return r;

@@ -6,6 +6,16 @@ public class Triangle1 {
     private  int c = 5;
     private  int h = 4;
 
+    Triangle1(int a, int b, int c){
+        this.a = a;
+        this.b = b;
+        this.c = c;
+    }
+
+    double trianglePerimeter(){
+        return a+b+c;
+    }
+
     public int getA() {
         return a;
     }
